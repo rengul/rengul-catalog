@@ -1,15 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T00:00:00Z",
+  "updatedAt": "2026-10-16T16:10:00Z",
   "apps": [
     {
       "id": "net.rengul.diskmap",
       "name": "Disk Map",
       "summary": "Analizzatore locale dello spazio su disco per macOS.",
-      "version": "0.1",
+      "version": "0.1.1",
       "minimumMacOS": "13.0",
-      "availability": "pending-signed-release",
-      "release": null
+      "availability": "published",
+      "release": {
+        "url": "https://github.com/rengul/diskmap/releases/download/v0.1.1/DiskMap-0.1.1-macos.zip",
+        "sha256": "0fb75d056767f8c181233d80f77ec6cc239e53a9342277ac8b3ce7994590fbdd",
+        "signature": {
+          "required": true,
+          "teamIdentifier": "HU9QF2HFVB"
+        }
+      }
     }
   ]
 }
