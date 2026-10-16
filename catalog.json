@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16T00:00:00Z",
+  "apps": [
+    {
+      "id": "net.rengul.diskmap",
+      "name": "Disk Map",
+      "summary": "Analizzatore locale dello spazio su disco per macOS.",
+      "version": "0.1",
+      "minimumMacOS": "13.0",
+      "availability": "pending-signed-release",
+      "release": null
+    }
+  ]
+}
