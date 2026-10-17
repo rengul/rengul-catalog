@@ -1,26 +1,22 @@
 # Rengul application catalog
 
-Catalogo privato per il launcher Rengul. Il launcher scarica questo file dopo
-che l'utente ha eseguito il login con il proprio account; un token GitHub non
-deve mai essere inserito dentro un'app distribuita.
+Catalogo privato usato da Rengul Hub. Il launcher legge `catalog.json` tramite
+GitHub API e usa la copia inclusa nell'app come fallback.
 
-## Stato iniziale
+## Pubblicazione
 
-`Disk Map` è presente come `pending-signed-release`: il launcher lo mostra ma
-non offre alcun download fino a quando la release non è firmata Developer ID,
-notarizzata e dotata di checksum SHA-256.
+Una voce appare nel launcher quando `availability` è `published` e `hidden` è
+`false` o assente. Impostando `hidden` a `true`, l'app resta nel catalogo ma
+viene rimossa dalla UI.
 
-Quando sarà pronta la release, sostituire `release: null` con:
+Per pubblicare una nuova app basta aggiungere una voce con `id`, `name`,
+`repository`, `bundleName` e `release.teamIdentifier`: non è necessario
+ricompilare il launcher.
 
-```json
-{
-  "url": "https://github.com/rengul/diskmap/releases/download/v0.1/DiskMap-0.1-macos.zip",
-  "sha256": "<hash SHA-256 dell'asset>",
-  "signature": {
-    "required": true,
-    "teamIdentifier": "<Apple Team ID>"
-  }
-}
-```
+Il campo `repository` permette al launcher di interrogare automaticamente
+l'ultima release GitHub. La release deve contenere un asset `*-macos.zip` e il
+relativo `*-macos.zip.sha256`; lo ZIP deve contenere una sola app macOS al primo
+livello.
 
-e impostare `availability` a `available`.
+Il token GitHub rimane nel Portachiavi del Mac e non deve mai essere inserito
+nel catalogo o nel codice distribuito.
