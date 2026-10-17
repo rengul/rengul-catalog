@@ -9,7 +9,7 @@
       "version": "0.1.2",
       "minimumMacOS": "13.0",
       "availability": "published",
-      "hidden": false,
+      "hidden": true,
       "repository": "rengul/diskmap",
       "bundleName": "DiskMap.app",
       "release": {
