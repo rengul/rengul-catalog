@@ -13,10 +13,11 @@ Per pubblicare una nuova app basta aggiungere una voce con `id`, `name`,
 `repository`, `bundleName` e `release.teamIdentifier`: non è necessario
 ricompilare il launcher.
 
-Il campo `repository` permette al launcher di interrogare automaticamente
-l'ultima release GitHub. La release deve contenere un asset `*-macos.zip` e il
-relativo `*-macos.zip.sha256`; lo ZIP deve contenere una sola app macOS al primo
-livello.
+Il catalogo è la fonte autorevole per la versione pubblicata. Il launcher usa
+`repository` e `version` per risolvere il tag GitHub corrispondente (per esempio
+`0.1.1` → `v0.1.1`) senza sostituirlo con la release più recente. La release
+deve contenere un asset `*-macos.zip` e il relativo `*-macos.zip.sha256`; lo ZIP
+deve contenere una sola app macOS al primo livello.
 
 Il token GitHub rimane nel Portachiavi del Mac e non deve mai essere inserito
 nel catalogo o nel codice distribuito.
