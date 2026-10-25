@@ -31,6 +31,7 @@
       "availability": "published",
       "hidden": false,
       "bundleName": "ClipDeck.app",
+      "iconURL": "https://launcher.renguldev.net/assets/clipdeck.png?v=0.1.0",
       "release": {
         "url": "https://launcher.renguldev.net/downloads/ClipDeck-0.1.0-macos.zip?v=0.1.0",
         "sha256": "62869eda0b0925da988dd42e1598886db150416e39ff2cf3beceac389e17d9bf",
