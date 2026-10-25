@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-17T10:00:00Z",
+  "updatedAt": "2026-10-25T21:00:00Z",
   "apps": [
     {
       "id": "net.rengul.diskmap",
@@ -15,6 +15,27 @@
       "release": {
         "url": "https://github.com/rengul/diskmap/releases/download/v0.1.1/DiskMap-0.1.1-macos.zip",
         "sha256": "0fb75d056767f8c181233d80f77ec6cc239e53a9342277ac8b3ce7994590fbdd",
+        "teamIdentifier": "HU9QF2HFVB",
+        "signature": {
+          "required": true,
+          "teamIdentifier": "HU9QF2HFVB"
+        }
+      }
+    },
+    {
+      "id": "com.clipboardstudio.app",
+      "name": "ClipDeck",
+      "summary": "Cronologia clipboard veloce, privata e cifrata per macOS.",
+      "version": "0.1.0",
+      "minimumMacOS": "13.0",
+      "availability": "published",
+      "hidden": false,
+      "repository": "rengul/ClipDeck",
+      "bundleName": "ClipDeck.app",
+      "requiresGitHubToken": true,
+      "release": {
+        "url": "https://api.github.com/repos/rengul/ClipDeck/releases/assets/676108858",
+        "sha256": "62869eda0b0925da988dd42e1598886db150416e39ff2cf3beceac389e17d9bf",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
