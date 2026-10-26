@@ -34,7 +34,7 @@
       "iconURL": "https://launcher.renguldev.net/assets/clipdeck.png?v=0.1.3",
       "release": {
         "url": "https://launcher.renguldev.net/downloads/ClipDeck-0.1.3-macos.zip?v=0.1.3",
-        "sha256": "sha256:28a98a879cfbdb64f4f21dfe229919fff04b2f871c284969b669918d23f933b6",
+        "sha256": "ac4e109d6e3439fcf42c31f7a8d7da48f8e7fbed52d70da66d162ba05123715d",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
