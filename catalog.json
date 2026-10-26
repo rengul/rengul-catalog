@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-25T21:50:50Z",
+  "updatedAt": "2026-10-26T15:58:29Z",
   "apps": [
     {
       "id": "net.rengul.diskmap",
@@ -35,6 +35,26 @@
       "release": {
         "url": "https://launcher.renguldev.net/downloads/ClipDeck-0.1.3-macos.zip?v=0.1.3",
         "sha256": "ac4e109d6e3439fcf42c31f7a8d7da48f8e7fbed52d70da66d162ba05123715d",
+        "teamIdentifier": "HU9QF2HFVB",
+        "signature": {
+          "required": true,
+          "teamIdentifier": "HU9QF2HFVB"
+        }
+      }
+    },
+    {
+      "id": "it.rengul.gitclient",
+      "name": "Rengul",
+      "summary": "Client Git visuale per macOS, attualmente in alpha.",
+      "version": "0.1.0",
+      "minimumMacOS": "13.0",
+      "availability": "published",
+      "hidden": false,
+      "repository": "rengul/gitrengul",
+      "bundleName": "Rengul.app",
+      "release": {
+        "url": "https://api.github.com/repos/rengul/gitrengul/releases/assets/678647646",
+        "sha256": "36070ff36a116065b7cf0a378659623d7a1326aa6573cc660d99ff295b2f0221",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
