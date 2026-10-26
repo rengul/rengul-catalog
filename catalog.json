@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-26T15:58:29Z",
+  "updatedAt": "2026-10-26T16:22:36Z",
   "apps": [
     {
       "id": "net.rengul.diskmap",
@@ -46,15 +46,15 @@
       "id": "it.rengul.gitclient",
       "name": "Rengul",
       "summary": "Client Git visuale per macOS, attualmente in alpha.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "minimumMacOS": "13.0",
       "availability": "published",
       "hidden": false,
       "repository": "rengul/gitrengul",
       "bundleName": "Rengul.app",
       "release": {
-        "url": "https://api.github.com/repos/rengul/gitrengul/releases/assets/678647646",
-        "sha256": "36070ff36a116065b7cf0a378659623d7a1326aa6573cc660d99ff295b2f0221",
+        "url": "https://api.github.com/repos/rengul/gitrengul/releases/assets/678727656",
+        "sha256": "1c8e418681216d452918a866e207424a9b71ca6d7406f5b5765120b8762cc38c",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
