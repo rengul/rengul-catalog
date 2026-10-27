@@ -46,7 +46,7 @@
       "id": "it.rengul.gitclient",
       "name": "Rengul",
       "summary": "Client Git visuale per macOS, attualmente in alpha.",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "minimumMacOS": "13.0",
       "availability": "published",
       "hidden": false,
