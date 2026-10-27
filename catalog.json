@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-10-26T16:22:36Z",
+  "updatedAt": "2026-10-27T07:52:17Z",
   "apps": [
     {
       "id": "net.rengul.diskmap",
@@ -53,8 +53,8 @@
       "repository": "rengul/gitrengul",
       "bundleName": "Rengul.app",
       "release": {
-        "url": "https://api.github.com/repos/rengul/gitrengul/releases/assets/678727656",
-        "sha256": "1c8e418681216d452918a866e207424a9b71ca6d7406f5b5765120b8762cc38c",
+        "url": "https://launcher.renguldev.net/downloads/rengul/Rengul-0.1.1-macos.dmg",
+        "sha256": "e16a896ca91720cddd8dac66f620d8026038067a0720cbf265f9516a25808eb9",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
