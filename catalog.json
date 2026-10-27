@@ -46,15 +46,15 @@
       "id": "it.rengul.gitclient",
       "name": "Rengul",
       "summary": "Client Git visuale per macOS, attualmente in alpha.",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "minimumMacOS": "13.0",
       "availability": "published",
       "hidden": false,
       "repository": "rengul/gitrengul",
       "bundleName": "Rengul.app",
       "release": {
-        "url": "https://launcher.renguldev.net/downloads/rengul/Rengul-0.1.5-macos.dmg",
-        "sha256": "d608b61177fb1ab871e2a6a7161dcfb2472834327eaba66c028501cd13735e5e",
+        "url": "https://launcher.renguldev.net/downloads/rengul/Rengul-0.1.6-macos.dmg",
+        "sha256": "f4ae3c9ea47d020e19c0106521bbad2c063edd83161ae070496a6d7bc9e46eb2",
         "teamIdentifier": "HU9QF2HFVB",
         "signature": {
           "required": true,
